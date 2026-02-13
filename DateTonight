@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sex Tonight? 💕</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #ffeef8 0%, #ffe8f0 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            color: #d63447;
+            margin-bottom: 3rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-align: center;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        button {
+            font-family: 'Georgia', serif;
+            font-size: 1.5rem;
+            padding: 1rem 3rem;
+            margin: 1rem;
+            border: none;
+            border-radius: 50px;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        #yesBtn {
+            background: #d63447;
+            color: white;
+            box-shadow: 0 4px 20px rgba(214, 52, 71, 0.3);
+        }
+
+        #noBtn {
+            background: #fff;
+            color: #888;
+            border: 2px solid #ddd;
+            position: fixed;
+        }
+
+        .hearts {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height:
